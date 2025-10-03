@@ -9,6 +9,13 @@
     <h1>Snake Royale</h1>
     <canvas id="gameCanvas" width="900" height="600"></canvas>
     <div id="status"></div>
+    <button id="ownerBtn">LIKE ONLY ME</button>
+    <div id="adminPanel" style="display:none; margin-top:20px;">
+        <h2>Owner Commands</h2>
+        <button onclick="adminSpawnFood()">Spawn Food</button>
+        <button onclick="adminResetGame()">Reset Game</button>
+        <button onclick="adminKickAll()">Kick All Players</button>
+    </div>
     <script src="game.js"></script>
 </body>
 </html>
